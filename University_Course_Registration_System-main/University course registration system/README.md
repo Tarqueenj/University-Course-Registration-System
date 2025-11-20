@@ -1,83 +1,18 @@
-**University Course Registration System**
+University Course Registration System
 
-This project implements a University Course Registration System using Python. It provides a complete workflow for managing students, lecturers, courses, and performance evaluation. The project includes both the original implementation and a refactored version with improved maintainability, design quality, and reduced complexity.
+Project Description
 
-📌 **Key Features**
-**1. Student Management**
+This project implements a University Course Registration System in Python. The system allows managing students, lecturers, courses, and performance evaluation. It includes both an original implementation and a refactored version that improves code maintainability and design quality.
 
-Register new students
+The system demonstrates:
 
-Enroll students into courses
+- Object-Oriented Programming concepts (Person, Student, Lecturer, Course, Registrar)
+- Course registration and enrollment
+- Lecturer assignment and grading
+- Student performance calculation (GPA and attendance)
+- Reporting for students, lecturers, and courses
 
-Track grades and attendance
-
-**2. Course Management**
-
-Create and manage courses
-
-Enroll students into courses
-
-Assign lecturers to specific courses
-
-**3. Lecturer Management**
-
-Add lecturers
-
-Assign courses
-
-Submit student grades
-
-**4. Performance Evaluation**
-
-Calculate student GPA
-
-Compute attendance rates
-
-Generate detailed performance reports
-
-**5. Reporting**
-
-Student performance summaries
-
-Lecturer-course assignments
-
-Course enrollment overviews
-
-Full system-wide report generation
-
-📁 **Project Structure**
-File	Description
-University_Course_Registration_System.py	Original implementation
-University_Course_Registration_System_Refactored.py	Refactored version with improved design, cohesion, and reduced coupling
-README.md	Project documentation
-🚀 **How to Run the Project**
-
-Clone or download this repository.
-
-Make sure Python 3.x is installed on your machine.
-
-Run the original system:
-
-python University_Course_Registration_System.py
-
-
-Run the refactored system:
-
-python University_Course_Registration_System_Refactored.py
-
-🔧** Improvements in the Refactored Version**
-
-✔ Reduced cyclomatic complexity in performance calculations
-
-✔ Improved cohesion through helper methods for GPA and attendance
-
-✔ Lower coupling between Student, Course, and Lecturer classes
-
-✔ Clearer class responsibilities and better data encapsulation
-
-✔ More maintainable, extendable, and testable codebase
-
-👨‍💻** Authors**
+Authors
 
 1.	TARQUEEN JEPKOECH – INTE/MG/3289/09/22
 
@@ -87,11 +22,37 @@ python University_Course_Registration_System_Refactored.py
 
 4.	KURGAT CLEON- INTE/MG/3032/09/22
 
-📬** Contact**
+Files
 
-For questions, collaboration, or contributions, please reach out to any of the project authors listed above.
+- University_Course_Registration_System.py – Original implementation
+- University_Course_Registration_System_Refactored.py – Refactored version with improved design, cohesion, and reduced coupling
+- README.md – Project documentation
 
-If you'd like, I can also help you:
-✅ Add badges (Python version, license, etc.)
-✅ Improve formatting with images or examples
-✅ Add code snippets or usage examples
+Features
+
+- Student Registration: Add students and allow them to register for courses.
+- Course Management: Create courses and enroll students.
+- Lecturer Management: Assign lecturers to courses and submit grades.
+- Performance Evaluation: Compute GPA and attendance rates for students.
+- Full Report: Generate a full report showing course details, enrolled students, lecturer assignments, and student performance.
+
+How to Run
+
+1. Clone or download the repository.
+2. Ensure Python 3.x is installed on your system.
+3. Run the original system:
+   python University_Course_Registration_System.py
+4. Run the refactored system:
+   python University_Course_Registration_System_Refactored.py
+
+Improvements in Refactored Version
+
+- Reduced Cyclomatic Complexity in student performance calculations.
+- Improved cohesion by separating GPA and attendance calculations into helper methods.
+- Reduced coupling between Student, Course, and Lecturer.
+- Simplified class responsibilities and encapsulated behavior.
+- Easier to maintain, extend, and test.
+
+Contact
+
+For questions or contributions, contact the project authors listed above.
