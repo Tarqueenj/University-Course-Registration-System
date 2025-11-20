@@ -1,9 +1,9 @@
-University Course Registration System
+**University Course Registration System**
 
 This project implements a University Course Registration System using Python. It provides a complete workflow for managing students, lecturers, courses, and performance evaluation. The project includes both the original implementation and a refactored version with improved maintainability, design quality, and reduced complexity.
 
-📌 Key Features
-1. Student Management
+📌 **Key Features**
+**1. Student Management**
 
 Register new students
 
@@ -11,7 +11,7 @@ Enroll students into courses
 
 Track grades and attendance
 
-2. Course Management
+**2. Course Management**
 
 Create and manage courses
 
@@ -19,7 +19,7 @@ Enroll students into courses
 
 Assign lecturers to specific courses
 
-3. Lecturer Management
+**3. Lecturer Management**
 
 Add lecturers
 
@@ -27,7 +27,7 @@ Assign courses
 
 Submit student grades
 
-4. Performance Evaluation
+**4. Performance Evaluation**
 
 Calculate student GPA
 
@@ -35,7 +35,7 @@ Compute attendance rates
 
 Generate detailed performance reports
 
-5. Reporting
+**5. Reporting**
 
 Student performance summaries
 
@@ -45,12 +45,12 @@ Course enrollment overviews
 
 Full system-wide report generation
 
-📁 Project Structure
+📁 **Project Structure**
 File	Description
 University_Course_Registration_System.py	Original implementation
 University_Course_Registration_System_Refactored.py	Refactored version with improved design, cohesion, and reduced coupling
 README.md	Project documentation
-🚀 How to Run the Project
+🚀 **How to Run the Project**
 
 Clone or download this repository.
 
@@ -65,7 +65,7 @@ Run the refactored system:
 
 python University_Course_Registration_System_Refactored.py
 
-🔧 Improvements in the Refactored Version
+🔧** Improvements in the Refactored Version**
 
 ✔ Reduced cyclomatic complexity in performance calculations
 
@@ -77,7 +77,7 @@ python University_Course_Registration_System_Refactored.py
 
 ✔ More maintainable, extendable, and testable codebase
 
-👨‍💻 Authors
+👨‍💻** Authors**
 
 1.	TARQUEEN JEPKOECH – INTE/MG/3289/09/22
 
@@ -87,7 +87,7 @@ python University_Course_Registration_System_Refactored.py
 
 4.	KURGAT CLEON- INTE/MG/3032/09/22
 
-📬 Contact
+📬** Contact**
 
 For questions, collaboration, or contributions, please reach out to any of the project authors listed above.
 
